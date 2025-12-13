@@ -247,7 +247,7 @@ html {
 
 .history-sec-history {
 	padding: px2rem(48) clamp(1.5rem, 5vw, 4rem);
-	padding-bottom: 16rem;
+	padding-bottom: 5rem;
 	
 	display: flex;
 	flex-direction: column;
@@ -286,7 +286,7 @@ html {
 }
 .section__image {
 	border-radius: px2rem(32);
-	border: solid rgba(255, 177, 250, 0.35);
+	border: solid rgba(120, 71, 255, 0.5);
 	border-width: px2rem(8);
 
 	filter: $effect-img-shadow-tiny;
@@ -333,6 +333,8 @@ html {
 		filter: brightness(0.25) /*blur(4px)*/;
 
 		transition: filter 150ms ease-in-out;
+
+		
 	}
 
 	& svg {
@@ -340,12 +342,14 @@ html {
 		top: 50%;
 		left: 50%;
 		transform: translate(-50%, -50%);
+
+		width: clamp(4rem, 17.9vw, 6.25rem);
 	}
 	& h3 {
 		text-align: center;
 		color: white;
 		text-decoration: none;
-		font-size: px2rem(24);
+		font-size: clamp(0.7rem, 3.5vw, 1.5rem);
 		font-family: 'Rubik';
 		font-weight: 300;
 		width: 100%;
