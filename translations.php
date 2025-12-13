@@ -19,14 +19,19 @@ $translations_string = '{
         },
         "pages": {
             "index": {
+                "meta_desc": "A fanpage dedicated to the amazing world of Brainrots!",
                 "title": "BRAINROT",
                 "subtitle": "Welcome to our website!"
             },
             "history": {
-                "title": "WHAT?",
-                "subtitle": "When, and where?",
+                "meta_desc": "Learn more about the origin of Brainrots and their evolution.",
+
+                "title": "WHAT,",
+                "subtitle": "when, and where.",
                 "learn_more": "Learn more",
-                "browse": "Browse"
+                "browse": "Browse",
+
+                "back_to_top": "Back to top"
             }
         }
     }

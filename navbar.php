@@ -1,6 +1,6 @@
 <header class="header">
     <div class="header__logo-sitename logo-sitename">
-        <a class = "logo-sitename__logolink" href="index.php"><img class="image logolink-logo" src="assets/images/nav/brain.webp" alt="Website's logo" loading="lazy"></a>
+        <a class = "logo-sitename__logolink" href="/"><img class="image logolink-logo" src="assets/images/nav/brain.avif" alt="Website's logo" loading="lazy"></a>
         <h1 class="logo-sitename__title">BRAINROT</h1>
     </div>
 

@@ -3,7 +3,8 @@
 <html lang="<?php echo $lang_current; ?>">
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="<?php $docname=get_page_name(); echo $translations->$lang_current->pages->index->meta_desc; ?>">
         <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
         <link rel="stylesheet" href="css/style.css">
         <title><?php $docname=get_page_name(); echo $translations->$lang_current->docname->$docname; ?></title>
@@ -16,7 +17,7 @@
         <main class="home-main">
 
             <!-- Section titre -->
-            <section class="home-main__index-sec-title index-sec-title">
+            <div class="home-main__index-sec-title index-sec-title">
                 <!-- Écran titre -->
                 <div class="index-sec-title__hello hello">
                     <h2 class="hello__title"><?php echo $translations->$lang_current->pages->index->title; ?></h2>
@@ -25,11 +26,11 @@
 
                 <!-- Les 3 images -->
                 <div class="index-sec-title__intro-pictures intro-pictures">
-                    <img class="intro-pictures__img" src="assets/images/roster/preview/bombardiro_crocodilo.webp" alt="Bombardiro Crododilo">
-                    <img class="intro-pictures__img" src="assets/images/roster/preview/brr_patapim.webp" alt="Brr Brr Patapim">
-                    <img class="intro-pictures__img" src="assets/images/roster/preview/tung_sahur.webp" alt="Tung Tung Tung Sahur">
+                    <img class="intro-pictures__img" src="assets/images/roster/preview/chimpanzini_bananini.avif" alt="Chimpanzini Bananini">
+                    <img class="intro-pictures__img" src="assets/images/roster/preview/brr_patapim.avif" alt="Brr Brr Patapim">
+                    <img class="intro-pictures__img" src="assets/images/roster/preview/tung_sahur.avif" alt="Tung Tung Tung Sahur">
                 </div>
-            </section>
+            </div>
 
 
 

@@ -1,6 +1,11 @@
+//Fonction d'écrêtage (clamp)
+function clamp(x, min, max) {
+    return Math.max(Math.min(x, max), min)
+}
+
 //Fonction d'interpolation améliorée (pas de valeurs négatives)
 function lerp(a, b, x) {
-    return a + x * (b - a);
+    return a + clamp(x, 0, 1) * (b - a);
 }
 
 //Obtenir les valeur de rouge vert et bleu en partant du string du code hex (ex: 'ffffff' ou '#ffffff')
@@ -74,7 +79,10 @@ window.addEventListener("scroll", () => {
 });
 */
 window.addEventListener('scroll', () => {
-    let scroll_position = window.scrollY / (document.body.scrollHeight - window.innerHeight);
+    let scroll_end_y = document.getElementById('history-of-brainrots').getBoundingClientRect().top + window.scrollY;
+    let scroll_position = window.scrollY / /*(document.body.scrollHeight - window.innerHeight)*/scroll_end_y;
+    
+    //console.log(lerp(0, 1, scroll_position));
     
     //Couleur 1 du dégradé
     let bg_col_start_r = lerp(background_color['first']['start'][0], background_color['last']['start'][0], scroll_position);
