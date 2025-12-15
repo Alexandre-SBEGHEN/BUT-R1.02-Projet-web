@@ -50,21 +50,17 @@ $colorpalette-background-gradient-first-start: #5d06d6;
 $colorpalette-background-gradient-first_end: /*#0a0822*/#0B0215;
 $colorpalette-background-gradient-last-start: #F0BFFF;
 $colorpalette-background-gradient-last-end: #BB76FF;
-
-/* Couleurs de texte */
-$colorpalette-text-light: white;
-$colorpalette-text-dark: black;
 /*-----------------------------------*/
 /*
     Effets
 */
 /* Ombres de texte */
-$effect-text-shadow-vtiny: 4px 4px 12px rgba(0, 0, 0, 0.4);
+$effect-text-shadow-verytiny: 4px 4px 12px rgba(0, 0, 0, 0.4);
 $effect-text-shadow-tiny: 4px 4px 8px rgba(0, 0, 0, 0.6);
 $effect-text-shadow-big: 12px 12px 16px rgba(0, 0, 0, 0.4);
 /* Ombres d'images */
-$effect-img-shadow-tiny: drop-shadow(4px 4px 6px rgba(0, 0, 0, 0.5));
-$effect-img-shadow-big: drop-shadow(12px 12px 12px rgba(0, 0, 0, 0.4));
-/* Ombres d'éléments */
-$effect-element-shadow: 10px 10px 12px rgba(0, 0, 0, 0.4);
-$effect-element-shadow-vertical: 0 10px 12px rgba(0, 0, 0, 0.4);
+$effect-filter-img-drop-shadow-tiny: drop-shadow(4px 4px 6px rgba(0, 0, 0, 0.5));
+$effect-filter-img-drop-shadow-big: drop-shadow(12px 12px 12px rgba(0, 0, 0, 0.4));
+// /* Ombres d'éléments */
+$effect-box-shadow: 10px 10px 12px rgba(0, 0, 0, 0.4);
+$effect-box-shadow-vertical: 0 10px 12px rgba(0, 0, 0, 0.4);
