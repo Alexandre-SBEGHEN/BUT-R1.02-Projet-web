@@ -4,7 +4,7 @@
 $translations_string = '{
     "en": {
         "docname": {
-            "404": "Error 404",
+            "e404": "Error 404",
             "index": "Brainrot City",
             "history": "History - Brainrot City",
             "roster": "Roster - Brainrot City",
@@ -18,6 +18,16 @@ $translations_string = '{
             "flag-alt": ["Flag of the UK", "Flag of France"]
         },
         "pages": {
+            "e404": {
+                "meta_desc": "404 error: the page you are looking for does not exist or has been moved. Use the navigation to continue browsing the site.",
+
+                "title": "404 :(",
+                "subtitle": "Ressource not found.",
+
+                "back_to_home": "Back to home",
+
+                "sad_sahur_alt": "Picture of sad Tung Tung Tung Sahur"
+            },
             "index": {
                 "meta_desc": "A fanpage dedicated to the amazing world of Brainrots!",
                 "title": "BRAINROT",

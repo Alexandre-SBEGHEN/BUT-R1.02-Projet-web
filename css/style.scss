@@ -36,6 +36,64 @@ html {
 	min-height: 100vh;
 }
 
+/* --- Error 404 --- */
+.e404 {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+	padding-bottom: 4rem;
+
+	
+	&__title, &__subtitle {
+		text-align: center;
+		font-family: 'Rubik';
+		color: white;
+
+		text-shadow: $effect-text-shadow-big;
+	}
+	&__title {
+		font-weight: 500;
+		font-size: clamp(4rem, 10vw, 8rem);
+		padding-bottom: px2rem(16);
+	}
+	&__subtitle {
+		font-size: clamp(1.5rem, 3.75vw, 3rem);
+		font-weight: 400;
+	}
+	&__picture {
+		border-radius: px2rem(32);
+		border: solid rgba(255, 177, 250, 0.35);
+		border-width: px2rem(8);
+
+		filter: $effect-filter-img-drop-shadow-tiny;
+
+		width: clamp(12rem, 21.3vw, 16rem);
+		height: auto;
+	}
+}
+.e404-div {
+	&--error {
+		padding-top: clamp(4rem, 10vw, 8rem);
+	}
+	&--button {
+		padding-top: px2rem(48);
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+		gap: px2rem(16) px2rem(32);
+	}
+	&--picture {
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+		gap: px2rem(32) px2rem(80);
+
+		padding: 0 5rem;
+		padding-top: px2rem(80);
+	}
+}
+
 /* --- Nav menu --- */
 .header {	
 	display: flex;

@@ -15,11 +15,10 @@
 
         <!-- Page main content -->
         <main class="main">
-
             <!-- Title & -->
             <div class="main__roster-presentation roster-presentation">
                 <h2 class="roster-presentation__title"><?php echo $translations->$lang_current->pages->roster->title; ?></h2>
-                <h3 class="roster-presentation__subtitle"><?php echo $translations->$lang_current->pages->roster->subtitle; ?></h2>
+                <h3 class="roster-presentation__subtitle"><?php echo $translations->$lang_current->pages->roster->subtitle; ?></h3>
             </div>
 
             <!-- The roster -->
@@ -41,7 +40,6 @@
             }
             ?>
             </div>
-
         </main>
     </body>
 </html>

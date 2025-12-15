@@ -15,7 +15,6 @@
 
         <!-- Page main content -->
         <main class="main">
-
             <!-- Homescreen -->
             <div class="main__homescreen homescreen">
                 <!-- Welcome text -->
@@ -31,11 +30,6 @@
                     <img width="256" class="homescreen__picture" src="assets/images/roster/preview/tung_sahur.avif" alt="Tung Tung Tung Sahur">
                 </div>
             </div>
-
-
-
-
-
         </main>
     </body>
 </html>
