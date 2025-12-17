@@ -1,3 +1,3 @@
 # SAE-R102-Site-web
 
-<a href="brainrotcity.alwaysdata.net">Accéder au site</a>
+<a href="https://brainrotcity.alwaysdata.net" target="blank">Accéder au site</a>
