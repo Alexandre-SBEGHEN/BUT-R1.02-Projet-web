@@ -1,4 +1,4 @@
-<?php require('init.php'); $name = $_GET['brname']; ?>
+<?php require('init.php'); if (!isset($_GET['brname']) || !in_array($_GET['brname'], $cards_keys)) $name = "ballerina"; else $name = $_GET['brname']; ?>
 <!DOCTYPE html>
 <html lang="<?php echo $lang_current; ?>">
     <head>
