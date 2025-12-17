@@ -108,6 +108,14 @@ table {
   font-weight: 600;
   src: url("../assets/fonts/rubik/rubik-v31-latin-600.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
+/* terminus */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Terminus";
+  font-style: normal;
+  font-weight: 300;
+  src: url("../assets/fonts/terminus/terminus.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
 /*-----------------------------------*/
 /*
     Palette de couleurs
@@ -504,7 +512,7 @@ html {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  gap: 3rem;
+  gap: 4rem;
   padding-bottom: 4rem;
 }
 .roster-identity__quote-div {
@@ -514,7 +522,7 @@ html {
   align-items: center;
   gap: 1rem;
   padding: 1rem 0;
-  width: clamp(20rem, 45vw, 32rem);
+  width: clamp(20rem, 45vw, 42rem);
   background-color: white;
   border-radius: 24px;
   box-shadow: 10px 10px 12px rgba(0, 0, 0, 0.4);
@@ -531,7 +539,7 @@ html {
 .roster-identity__p, .roster-identity__quote {
   font-weight: 300;
   line-height: 1.25rem;
-  max-width: clamp(17rem, 34vw, 26rem);
+  max-width: clamp(17rem, 34vw, 36rem);
 }
 .roster-identity__quote {
   font-style: italic;

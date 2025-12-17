@@ -463,7 +463,7 @@ html {
 	align-items: center;
 	flex-wrap: wrap;
 
-	gap: 3rem;
+	gap: 4rem;
 
 	padding-bottom: 4rem;
 
@@ -477,7 +477,7 @@ html {
 		padding: 1rem 0;
 
 		//width: 32rem;
-		width: clamp(20rem, 45vw, 32rem);
+		width: clamp(20rem, 45vw, 42rem);
 		
 		
 		//padding: 2rem 0rem;
@@ -502,7 +502,8 @@ html {
 	&__p, &__quote {
 		font-weight: 300;
 		line-height: 1.25rem;
-		max-width: clamp(17rem, 34vw, 26rem);
+		max-width: clamp(17rem, 34vw, 36rem);
+		//max-width: 36rem;
 	}
 	&__quote {
 		font-style: italic;
