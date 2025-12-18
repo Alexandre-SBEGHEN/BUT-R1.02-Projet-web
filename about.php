@@ -67,7 +67,7 @@
                         </form>
                             
                         <!-- RGPD -->
-                        <p class="about-infobubble__text"><a href="rgpd.pdf"><?php echo $translations->$lang_current->pages->about->rgpd; ?></a></p>
+                        <p class="about-infobubble__text"><a class="about-infobubble__a" href="rgpd.pdf"><?php echo $translations->$lang_current->pages->about->rgpd; ?></a></p>
                     </div>
                 </div>
             </div>
