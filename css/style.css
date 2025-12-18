@@ -222,8 +222,7 @@ html {
   .header {
     flex-direction: column;
     justify-content: center;
-    -moz-column-gap: 8rem;
-         column-gap: 8rem;
+    column-gap: 8rem;
     padding: 1rem 1rem;
   }
 }
@@ -249,8 +248,7 @@ html {
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  -moz-column-gap: 3rem;
-       column-gap: 3rem;
+  column-gap: 3rem;
   row-gap: 1.5rem;
 }
 @media screen and (max-width: 64rem) {
@@ -542,7 +540,7 @@ html {
 }
 .roster-identity__h, .roster-identity__p, .roster-identity__quote {
   font-family: "Rubik";
-  font-size: 16;
+  font-size: 16px;
   text-align: center;
 }
 .roster-identity__h {
