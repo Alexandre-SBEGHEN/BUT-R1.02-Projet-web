@@ -19,8 +19,7 @@
 
 /*-----------------------*/
 /* --- Global properties --- */
-html {
-}
+
 .body {
 	//Créer les variables pour pouvoir y accéder et les modifier en JS
 	--bg-color-first-start: #{$colorpalette-background-gradient-first-start};
@@ -494,8 +493,7 @@ html {
 	}
 
 	transition: all 150ms ease-in-out;
-	&:hover {
-	}
+
 	&:hover &__div {
 		background-color: #1900ff;
 	}
@@ -641,9 +639,10 @@ html {
 	}
 }
 
-.about-infobubble-a{
+.about-infobubble__a{
 	color: #00a800;
 }
+
 .about-form {
 	display: flex;
 	flex-direction: column;
