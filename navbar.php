@@ -17,7 +17,11 @@
                     -->
                     <li class="navbar-nav__item"><a class="navbar-nav__link<?php echo (page_nameis('about')) ? ' navbar-nav__link--current' : ''; ?>" href="/about.php"><?php echo $translations->$lang_current->navbar->links[4]; ?></a></li>
 
-                    <li class="navbar-nav__item"><a href="#"><img width="48" class="image navbar-nav__flag" src="/assets/images/nav/flag_fr.svg" alt="Flag of France" loading="lazy"></a></li>
+                    <li class="navbar-nav__item"><a href="?lang=<?php
+                        echo ($lang_current == 'fr') ? 'en' : 'fr';
+                    ?>"><img width="48" class="image navbar-nav__flag" src="/assets/images/nav/flag_<?php
+                        echo ($lang_current == 'fr') ? 'en' : 'fr';
+                    ?>.svg" alt="Flag of France" loading="lazy"></a></li>
                 </ul>
             </nav>
         </header>

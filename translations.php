@@ -105,7 +105,118 @@ $translations_string = '{
                 "form_opinion": "Opinion:",
                 "form_submit": "Submit",
 
+                "rgpd": "Data retention policy",
+
                 "legal_notices": "Legal notices"
+            }
+        }
+    },
+    "fr": {
+        "docname": {
+            "e404": "Erreur 404",
+            "index": "Brainrot City",
+            "history": "Histoire - Brainrot City",
+            "roster": "Collection - Brainrot City",
+            "generator": "Générateur - Brainrot City",
+            "about": "À propos - Brainrot City"
+        },
+        "navbar": {
+            "logo_alt": "Logo du site web",
+
+            "links": ["Accueil", "Histoire", "Collection", "Générateur", "À propos"],
+            "flag-alt": ["Drapeau du RU", "Drapeau de la France"]
+        },
+        "pages": {
+            "e404": {
+                "meta_desc": "Erreur 404: la page que vous recherchez n\'existe pas ou a été déplacée. Utilisez la navigation pour continuer à parcourir le site.",
+
+                "title": "404 :(",
+                "subtitle": "Ressource non trouvée.",
+
+                "back_to_home": "Retour à l\'accueil",
+
+                "sad_sahur_alt": "Photo de Tung Tung Tung Sahur triste"
+            },
+            "index": {
+                "meta_desc": "Une fanpage dédiée à l\'univers incroyable des Brainrots !",
+                "title": "BRAINROT",
+                "subtitle": "Bienvenue sur notre site web!"
+            },
+            "history": {
+                "meta_desc": "Découvrez l\'origine des Brainrots et leur évolution.",
+
+                "title": "QUOI,",
+                "subtitle": "quand, et comment.",
+                "learn_more": "En savoir plus",
+                "browse": "Parcourir",
+
+                "history_title": "L\'histoire des Brainrots",
+
+                "history_p1": "Avant l’arrivée et la démocratisation de l’intelligence artificielle, il existait déjà sur Internet des formes de contenus que l’on peut aujourd’hui considérer comme les ancêtres des brainrot. Même sans outils d’IA capables de générer automatiquement des images ou des vidéos, les utilisateurs produisaient des visuels volontairement incohérents, absurdes et drôles. Ces contenus étaient principalement réalisés à partir de photomontages, notamment à l’aide de logiciels comme Photoshop, permettant d’assembler des éléments sans réelle logique.",
+
+                "history_p2": "Par exemple, on peut observer le Strawberry Elephant, situé à gauche, ainsi que le Smurf Cat, situé à droite. Ces images, bien que simples sur le plan technique, se distinguaient par leur caractère absurde et humoristique.",
+
+                "history_p3": "Début 2025, de nombreuses personnes ont commencé à remarquer l’apparition d’un nouveau type d’images sur Internet : des images carrées générées par intelligence artificielle. Elles mettaient le plus souvent en scène des animaux, accompagnés de noms absurdes, parfois drôles, parfois complètement illogiques, mais toujours liés d’une manière ou d’une autre à l’animal représenté. Ce mélange entre une image réaliste et un nom volontairement ridicule rendait ces contenus immédiatement reconnaissables. L’un des premiers exemples à avoir circulé massivement est « Tralalero Tralala ». Ce visuel a rapidement attiré l’attention et a été repris, détourné et partagé sur de nombreuses plateformes. Pour beaucoup, ce moment marque la réelle apparition des brainrot tels qu’on les connaît aujourd’hui : un format né avec l’IA, fondé sur l’absurde, la répétition et un humour volontairement simple, qui s’est ensuite diffusé très rapidement sur les réseaux sociaux.",
+
+                "history_p4": "Depuis, de nombreuses chaînes YouTube se sont spécialisées dans les brainrots. Elles ne se contentent plus de publier de simples images absurdes : certaines racontent des histoires complètes, d’autres créent des mèmes originaux ou même composent des chansons basées sur ces personnages et ces univers absurdes. Parmi les chaînes les plus connues, on peut citer Brainrot, DeepBrain et AI Brainrot. Ces chaînes participent à la diffusion et à l’essor du phénomène, en donnant vie aux brainrots de manière interactive et souvent humoristique, et en construisant une véritable culture autour de ce type de contenu.",
+
+                "history_p5": "Pour en savoir plus sur les BRAINROT et leurs histoire dans les moindre détail détailler il y existe un wiki dédié ci-dessous.",
+
+                "back_to_top": "Retour en haut"
+            },
+            "roster": {
+                "meta_desc": "Une large sélection des meilleurs et des plus connus Brainrots, chacun suivi d\'une présentation.",
+
+                "title": "BONNE",
+                "subtitle": "visite.",
+
+                "card_alt": "Character "
+            },
+            "roster_card": {
+                "quote_original": "Version originale :",
+                "quote_translated": "Version traduite :",
+
+                "quotes": {
+                    "ballerina": "Ballerina Cappuccina, mi mi mi mi ! Elle est la femme de Cappuccino Assassino. Et elle adore la musique, la la la la ! Sa passion, c\'est Ballerino Lololo.",
+                    "bombombini": "Bombombini Gusini ! Frère Bombardiro Crocodile, qui remplit les mêmes fonctions que son frère et distribue des bombes aux gens. Une blague pour ceux qui ont déménagé : un Géorgien passe avec deux pastèques sous les bras, puis un homme lui demande : « Quelle heure est-il ? » « Écoute, tiens la pastèque. » (...)",
+                    "brr_patapim": "Brr, brr, Patapim, mon chapeau est plein de Slim ! Dans la forêt dense et mystérieuse vivait une créature très curieuse. Avec des racines entrelacées et des jambes croisées, des mains fines et des bras qui gesticulaient. Son nez était aussi long qu\'un jambon, un peu comme celui d\'un babouin, un peu comme un buisson. (...)",
+                    "burbaloni": "Burbaloni Luliloli, Capibarello Coccosini ! Il est très rare de trouver sur la côte de Bali une noix de coco unique contenant un capybara à l\'intérieur. Il s\'agit d\'un événement très rare au cours duquel les habitants se rassemblent autour d\'un feu et célèbrent l\'arrivée du dieu capybara de la noix de coco. (...)",
+                    "cappuccino": "Cappu-cappu-cappuccino Killer ! Les tueurs de cappuccino ! Ce tueur furtif s\'infiltre parmi ses ennemis sous le couvert de la nuit. Attention, ennemis du café ! Si vous ne buvez pas une tasse de cappuccino le matin, vous feriez mieux de ne pas croiser son chemin.",
+                    "chimpanzini": "Chimpanzini Bananini ! Waa, waa, waa. Bananucci, singe-singe-singeucci ! Ou...",
+                    "cocofanto": "Cocofanto Elefanto Elefantucci Coconucci ! Cet enfant est protégé par une noix de coco. Ensemble, ils ne craignent aucune adversité. Ils voyagent à travers la jungle à la recherche d\'aventures.",
+                    "frulli": "Frullì Frullà, un pingouin dans le désert qui fait « blá blá blá ». Avec ses antennes sur le dos, il regarde la télévision. Et la tasse de café lui fait signe en disant : « Viens ici, mon cher ami, bois un verre avec moi. » Mais le pingouin sourit ; il fait trop chaud pour boire du café. Il continue à danser avec élégance dans le décor surréaliste et délirant du désert.",
+                    "job_sahur": "Emploi, emploi, emploi, emploi, emploi, emploi, emploi, emploi, emploi, emploi, Sahur ! Une offre d\'emploi pour vous !",
+                    "la_vacca": "La vache Saturne Saturnita. Tu es si belle, avec ton corps de Saturne, Saturnita. Les anneaux qui tournent, brillent dans le ciel, une vache spatiale sans aucun voile. (...)",
+                    "lirili": "Lirilì Larilà, un éléphant dans le désert qui se promène ici et là. Avec sa coquille et son tic-tac, les épines du cactus me rappellent un souvenir. Oncle Ramon arrive dans une montgolfière bleue en criant : « Qu\'est-ce que tu fais là ? Tu aimes aussi le WiFi ? » Je réponds, essoufflée : « J\'essaie juste de comprendre pourquoi un cactus qui porte des sandales peut aussi s\'habiller ! »",
+                    "orcalero": "Tralalero Tralala ? Non, non, non, Orcalero Orcala. Chaussure blanche. Splash, Boom, Ah. 1, 2, 3 chaussures, oui oui oui. Orcalero Orcala. Tête dure, tape du pied comme un pape.",
+                    "ta_sahur": "Ta Ta Ta Ta Ta Ta ! Sahur !!!! Il existe un événement mystérieux qui ne se produit que pendant le sahur. On dit que si quelqu\'un est appelé trois fois « Sahur » sans répondre, cette créature viendra chez lui. Euh, c\'est vraiment effrayant. (...)",
+                    "trippi": "Trippi Trop, trop de tripes, trois souris courent parmi les trombones hachés, triplant les toupies tropicales. Et ceux qui en veulent trop n\'obtiennent rien !",
+                    "trulimero": "Trulimero Trulichina, pretiletine dans la piscine, fromage sur la trulalima, mais qui appelle la coupe ?",
+                    "tung_sahur": "Tung, tung, tung, tung, tung, tung, tung, tung, tung Sahur. Une anomalie terrifiante qui n\'apparaît qu\'à l\'aube. On dit que si quelqu\'un est appelé trois fois à l\'aube et ne répond pas, cette créature viendra chez lui. Hiiii, quelle horreur ! (...)",
+                    "u_din": "Udin Din Din Din Dun Ma Din Din Din Dun est une orange avec des yeux et une bouche. Il était autrefois un être humain ordinaire, mais comme il avalait souvent des pépins d\'orange, il s\'est transformé en Udin Din Din Dun, l\'orange."
+                },
+                
+                "other_brainrots": "Autres Brainrots"
+            },
+            "about": {
+                "about_us": "Qui sommes-nous ?",
+
+                "text_1": "Nous sommes MALLET Mathias, SBEGHEN Alexandre, et YOUNOUSSA Hachim. Nous sommes passionnés d\'informatique et nous aimons beaucoup les memes. Les Brainrots en sont justement, et nous avons décidé sans réellement réfléchir de créer notre tout premier site web en les choisissant comme thématique.",
+                "text_2": "Nous sommes étudiants à <a class=\"about-infobubble__a\" href=\"https://www.univ-amu.fr/\">Aix-Marseille Université</a>, en première année de BUT informatique.",
+                "text_3": "Nous avons réalisé ce site web dans le cadre d\'un projet de groupe qui nous a été donné par notre professeur <a class=\"about-infobubble__a\" href=\"https://www.mickael-martin-nevot.com/\">Mickael MARTIN NEVOT</a>.",
+                "text_4": "D\'ailleurs, nous avons en début d\'année appris à nous servir de Linux, et nous aimons tellement l\'apparence des terminaux de commande que nous sommes dits que, cela pourrait être drôle si le site pouvait",
+                "text_5": "ressembler à un terminal",
+                "text_6": "Puisqu\'il s\'agit de notre tout premier site web, nous aimerions beaucoup savoir ce que vous pensez de ce dernier. C\'est pourquoi nous vous proposons de remplir le formulaire ci-dessous afin que vous puissiez laisser un petit commentaire à propos votre visite sur Brainrot City. Votre avis compte !",
+
+                "form_lastname": "Nom :",
+                "form_firstname": "Prénom:",
+                "form_email": "E-mail:",
+                "form_opinion": "Avis :",
+                "form_submit": "Envoyer ",
+
+                "rgpd": "Politique de conservation des données",
+
+                "legal_notices": "Mentions légales"
             }
         }
     }
@@ -116,7 +227,7 @@ $translations = json_decode($translations_string);
 define('DEFAULT_LANGUAGE', 'en');
 
 //Langages supportés par le site
-$lang_suppported = ['en'];
+$lang_suppported = ['en', 'fr'];
 
 //Vérifier si le paramètre de langue existe et si sa valeur se trouve dans les langages supportés
 if (isset($_GET['lang']) && in_array($_GET['lang'], $lang_suppported)) {

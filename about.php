@@ -65,6 +65,9 @@
 
                             <button class="about-form__button" type="submit"><?php echo $translations->$lang_current->pages->about->form_submit; ?></button>
                         </form>
+                            
+                        <!-- RGPD -->
+                        <p class="about-infobubble__text"><a href="rgpd.pdf"><?php echo $translations->$lang_current->pages->about->rgpd; ?></a></p>
                     </div>
                 </div>
             </div>
@@ -72,7 +75,7 @@
 
         <!-- Legal notices -->
         <footer class="footer">
-            <a class="footer__legal-notices" href="#"><?php echo $translations->$lang_current->pages->about->legal_notices; ?></a>
+            <a class="footer__legal-notices" href="legal_notices.pdf"><?php echo $translations->$lang_current->pages->about->legal_notices; ?></a>
         </footer>
     </body>
 </html>
