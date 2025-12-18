@@ -20,6 +20,23 @@
             <div class="main__about">
 
                 <p><?php echo $translations->$lang_current->pages->about->about_us; ?></p>
+
+                <!-- The form -->
+                <form action="https://formspree.io/f/mlgredyp" method="POST">
+                    <label for="nom">Nom :</label>
+                    <input type="text" id="nom" name="nom" required>
+
+                    <label for="prenom">Prénom :</label>
+                    <input type="text" id="prenom" name="prenom" required>
+
+                    <label for="email">E-mail :</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="avis">Avis :</label>
+                    <textarea id="avis" name="avis" required></textarea>
+
+                    <button type="submit">Envoyer</button>
+                </form>
             </div>
         </main>
 

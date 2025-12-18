@@ -54,7 +54,7 @@
                 <!-- Section 4 : Youtube video & text -->
                  
                 <div class="history-article__history-article-div history-article-div history-article-div--4">
-                    <a class="youtube-embed" href="https://youtu.be/fIhUqswc4c4?si=FtBJWkGZG4z0cs-L" target="blank">
+                    <a class="youtube-embed" href="https://youtu.be/fIhUqswc4c4?si=FtBJWkGZG4z0cs-L">
                         <img width="640" height="480" class="history-article__picture" src="assets/images/misc/yt-thumbnail.avif" alt="Thumbnail of a Youtube video" loading="lazy">
 
                         <svg width="100" height="100" viewBox="0 0 2 2" xmlns="http://www.w3.org/2000/svg" fill="none"><path fill="red" d="M1.839.579a.22.22 0 0 0-.154-.154C1.548.389 1 .389 1 .389s-.548 0-.685.036a.22.22 0 0 0-.154.154C.125.716.125 1 .125 1s0 .285.036.421c.02.075.079.134.154.154.137.036.685.036.685.036s.548 0 .685-.036a.22.22 0 0 0 .154-.154c.036-.137.036-.421.036-.421s0-.284-.036-.421"/><path fill="#fff" d="m.824 1.264.456-.262L.824.738z"/></svg>
@@ -68,7 +68,8 @@
 
                 <!-- Section 5 : Back top top page -->
                 <div class="history-article__history-article-div history-article-div history-article-div--5">
-                    <a class="buttons__a-button a-button" href="#"><?php echo $translations->$lang_current->pages->history->back_to_top; ?></a>
+                    <a class="buttons__a-button a-button" href="https://italianbrainrot.miraheze.org/wiki/Main_Page">Italian Brainrot Wiki</a>
+                    <a class="buttons__a-button a-button a-button--transparent" href="#"><?php echo $translations->$lang_current->pages->history->back_to_top; ?></a>
                 </div>
             </article>
         </main>
