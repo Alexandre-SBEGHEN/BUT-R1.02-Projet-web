@@ -1,5 +1,6 @@
 #Ignorer le google---.html
 google*.html
 
-#Ignorer les css
+#Ignorer les css et les map
 *.css
+*.css.map
