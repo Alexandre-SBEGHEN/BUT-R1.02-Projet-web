@@ -1,0 +1,5 @@
+#Ignorer le google---.html
+google*.html
+
+#Ignorer les css
+*.css
